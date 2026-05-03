@@ -1,7 +1,7 @@
 # 1. Install
 pip install -r requirements.txt
 
-# 2. (Optional) set your API key — the key is already hardcoded as a fallback
+# 2. set your API key
 GEMINI_API_KEY="Your API Key"
 DATABASE_URL="mysql+pymysql://root:your_password@localhost/recipes_db"
 
