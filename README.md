@@ -1,3 +1,6 @@
+Clean code… until you scroll.
+Works on my machine. Deployment is a spiritual problem.
+
 # 1. Install
 pip install -r requirements.txt
 
