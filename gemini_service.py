@@ -6,7 +6,7 @@ import re
 import json
 import google.generativeai as genai
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyBnXpGsjnPGt7RYH6NHTof31mZn-Sosq90")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", " api key")
 genai.configure(api_key=GEMINI_API_KEY)
 
 model = genai.GenerativeModel("gemini-2.5-flash")
